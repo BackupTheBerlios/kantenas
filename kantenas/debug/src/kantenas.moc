@@ -1,0 +1,92 @@
+/****************************************************************************
+** kantenas meta object code from reading C++ file 'kantenas.h'
+**
+** Created: Sat May 22 14:10:27 2004
+**      by: The Qt MOC ($Id: kantenas.moc,v 1.1 2004/05/22 14:47:27 capi_x Exp $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "../../src/kantenas.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.2.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *kantenas::className() const
+{
+    return "kantenas";
+}
+
+QMetaObject *kantenas::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_kantenas( "kantenas", &kantenas::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString kantenas::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "kantenas", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString kantenas::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "kantenas", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* kantenas::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = KMainWindow::staticMetaObject();
+    metaObj = QMetaObject::new_metaobject(
+	"kantenas", parentObject,
+	0, 0,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_kantenas.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* kantenas::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "kantenas" ) )
+	return this;
+    return KMainWindow::qt_cast( clname );
+}
+
+bool kantenas::qt_invoke( int _id, QUObject* _o )
+{
+    return KMainWindow::qt_invoke(_id,_o);
+}
+
+bool kantenas::qt_emit( int _id, QUObject* _o )
+{
+    return KMainWindow::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool kantenas::qt_property( int id, int f, QVariant* v)
+{
+    return KMainWindow::qt_property( id, f, v);
+}
+
+bool kantenas::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES

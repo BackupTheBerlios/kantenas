@@ -1,0 +1,206 @@
+/****************************************************************************
+** kantenasMain meta object code from reading C++ file 'kantenasMain.h'
+**
+** Created: Sat May 22 15:35:41 2004
+**      by: The Qt MOC ($Id: kantenasMain.moc,v 1.1 2004/05/22 14:47:33 capi_x Exp $)
+**
+** WARNING! All changes made in this file will be lost!
+*****************************************************************************/
+
+#undef QT_NO_COMPAT
+#include "kantenasMain.h"
+#include <qmetaobject.h>
+#include <qapplication.h>
+
+#include <private/qucomextra_p.h>
+#if !defined(Q_MOC_OUTPUT_REVISION) || (Q_MOC_OUTPUT_REVISION != 26)
+#error "This file was generated using the moc from 3.2.3. It"
+#error "cannot be used with the include files from this version of Qt."
+#error "(The moc has changed too much.)"
+#endif
+
+const char *kantenasMain::className() const
+{
+    return "kantenasMain";
+}
+
+QMetaObject *kantenasMain::metaObj = 0;
+static QMetaObjectCleanUp cleanUp_kantenasMain( "kantenasMain", &kantenasMain::staticMetaObject );
+
+#ifndef QT_NO_TRANSLATION
+QString kantenasMain::tr( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "kantenasMain", s, c, QApplication::DefaultCodec );
+    else
+	return QString::fromLatin1( s );
+}
+#ifndef QT_NO_TRANSLATION_UTF8
+QString kantenasMain::trUtf8( const char *s, const char *c )
+{
+    if ( qApp )
+	return qApp->translate( "kantenasMain", s, c, QApplication::UnicodeUTF8 );
+    else
+	return QString::fromUtf8( s );
+}
+#endif // QT_NO_TRANSLATION_UTF8
+
+#endif // QT_NO_TRANSLATION
+
+QMetaObject* kantenasMain::staticMetaObject()
+{
+    if ( metaObj )
+	return metaObj;
+    QMetaObject* parentObject = QMainWindow::staticMetaObject();
+    static const QUMethod slot_0 = {"fileNew", 0, 0 };
+    static const QUMethod slot_1 = {"fileOpen", 0, 0 };
+    static const QUMethod slot_2 = {"fileSave", 0, 0 };
+    static const QUMethod slot_3 = {"fileSaveAs", 0, 0 };
+    static const QUMethod slot_4 = {"filePrint", 0, 0 };
+    static const QUMethod slot_5 = {"fileExit", 0, 0 };
+    static const QUMethod slot_6 = {"editUndo", 0, 0 };
+    static const QUMethod slot_7 = {"editRedo", 0, 0 };
+    static const QUMethod slot_8 = {"editCut", 0, 0 };
+    static const QUMethod slot_9 = {"editCopy", 0, 0 };
+    static const QUMethod slot_10 = {"editPaste", 0, 0 };
+    static const QUMethod slot_11 = {"editFind", 0, 0 };
+    static const QUMethod slot_12 = {"helpIndex", 0, 0 };
+    static const QUMethod slot_13 = {"helpContents", 0, 0 };
+    static const QUMethod slot_14 = {"helpAbout", 0, 0 };
+    static const QUMethod slot_15 = {"SlotCalcFrec", 0, 0 };
+    static const QUMethod slot_16 = {"SlotCalcLong", 0, 0 };
+    static const QUMethod slot_17 = {"SlotCalcPeri", 0, 0 };
+    static const QUMethod slot_18 = {"SlotCalcP1", 0, 0 };
+    static const QUMethod slot_19 = {"SlotCalcP2", 0, 0 };
+    static const QUMethod slot_20 = {"SlotCalcGp", 0, 0 };
+    static const QUMethod slot_21 = {"SlotCalcU1", 0, 0 };
+    static const QUMethod slot_22 = {"SlotCalcU2", 0, 0 };
+    static const QUMethod slot_23 = {"SlotCalcGu", 0, 0 };
+    static const QUMethod slot_24 = {"SlotCalcI1", 0, 0 };
+    static const QUMethod slot_25 = {"SlotCalcI2", 0, 0 };
+    static const QUMethod slot_26 = {"SlotCalcGi", 0, 0 };
+    static const QUMethod slot_27 = {"SlotCalcLongDip", 0, 0 };
+    static const QUMethod slot_28 = {"SlotCalcAt", 0, 0 };
+    static const QUMethod slot_29 = {"SlotCalcSa", 0, 0 };
+    static const QUMethod slot_30 = {"SlotCalcGa", 0, 0 };
+    static const QUMethod slot_31 = {"SlotCalcSt", 0, 0 };
+    static const QUMethod slot_32 = {"SlotCalcAt_2", 0, 0 };
+    static const QUMethod slot_33 = {"SlotCalcSa_2", 0, 0 };
+    static const QUMethod slot_34 = {"SlotCalcSe_2", 0, 0 };
+    static const QUMethod slot_35 = {"languageChange", 0, 0 };
+    static const QMetaData slot_tbl[] = {
+	{ "fileNew()", &slot_0, QMetaData::Public },
+	{ "fileOpen()", &slot_1, QMetaData::Public },
+	{ "fileSave()", &slot_2, QMetaData::Public },
+	{ "fileSaveAs()", &slot_3, QMetaData::Public },
+	{ "filePrint()", &slot_4, QMetaData::Public },
+	{ "fileExit()", &slot_5, QMetaData::Public },
+	{ "editUndo()", &slot_6, QMetaData::Public },
+	{ "editRedo()", &slot_7, QMetaData::Public },
+	{ "editCut()", &slot_8, QMetaData::Public },
+	{ "editCopy()", &slot_9, QMetaData::Public },
+	{ "editPaste()", &slot_10, QMetaData::Public },
+	{ "editFind()", &slot_11, QMetaData::Public },
+	{ "helpIndex()", &slot_12, QMetaData::Public },
+	{ "helpContents()", &slot_13, QMetaData::Public },
+	{ "helpAbout()", &slot_14, QMetaData::Public },
+	{ "SlotCalcFrec()", &slot_15, QMetaData::Public },
+	{ "SlotCalcLong()", &slot_16, QMetaData::Public },
+	{ "SlotCalcPeri()", &slot_17, QMetaData::Public },
+	{ "SlotCalcP1()", &slot_18, QMetaData::Public },
+	{ "SlotCalcP2()", &slot_19, QMetaData::Public },
+	{ "SlotCalcGp()", &slot_20, QMetaData::Public },
+	{ "SlotCalcU1()", &slot_21, QMetaData::Public },
+	{ "SlotCalcU2()", &slot_22, QMetaData::Public },
+	{ "SlotCalcGu()", &slot_23, QMetaData::Public },
+	{ "SlotCalcI1()", &slot_24, QMetaData::Public },
+	{ "SlotCalcI2()", &slot_25, QMetaData::Public },
+	{ "SlotCalcGi()", &slot_26, QMetaData::Public },
+	{ "SlotCalcLongDip()", &slot_27, QMetaData::Public },
+	{ "SlotCalcAt()", &slot_28, QMetaData::Public },
+	{ "SlotCalcSa()", &slot_29, QMetaData::Public },
+	{ "SlotCalcGa()", &slot_30, QMetaData::Public },
+	{ "SlotCalcSt()", &slot_31, QMetaData::Public },
+	{ "SlotCalcAt_2()", &slot_32, QMetaData::Public },
+	{ "SlotCalcSa_2()", &slot_33, QMetaData::Public },
+	{ "SlotCalcSe_2()", &slot_34, QMetaData::Public },
+	{ "languageChange()", &slot_35, QMetaData::Protected }
+    };
+    metaObj = QMetaObject::new_metaobject(
+	"kantenasMain", parentObject,
+	slot_tbl, 36,
+	0, 0,
+#ifndef QT_NO_PROPERTIES
+	0, 0,
+	0, 0,
+#endif // QT_NO_PROPERTIES
+	0, 0 );
+    cleanUp_kantenasMain.setMetaObject( metaObj );
+    return metaObj;
+}
+
+void* kantenasMain::qt_cast( const char* clname )
+{
+    if ( !qstrcmp( clname, "kantenasMain" ) )
+	return this;
+    return QMainWindow::qt_cast( clname );
+}
+
+bool kantenasMain::qt_invoke( int _id, QUObject* _o )
+{
+    switch ( _id - staticMetaObject()->slotOffset() ) {
+    case 0: fileNew(); break;
+    case 1: fileOpen(); break;
+    case 2: fileSave(); break;
+    case 3: fileSaveAs(); break;
+    case 4: filePrint(); break;
+    case 5: fileExit(); break;
+    case 6: editUndo(); break;
+    case 7: editRedo(); break;
+    case 8: editCut(); break;
+    case 9: editCopy(); break;
+    case 10: editPaste(); break;
+    case 11: editFind(); break;
+    case 12: helpIndex(); break;
+    case 13: helpContents(); break;
+    case 14: helpAbout(); break;
+    case 15: SlotCalcFrec(); break;
+    case 16: SlotCalcLong(); break;
+    case 17: SlotCalcPeri(); break;
+    case 18: SlotCalcP1(); break;
+    case 19: SlotCalcP2(); break;
+    case 20: SlotCalcGp(); break;
+    case 21: SlotCalcU1(); break;
+    case 22: SlotCalcU2(); break;
+    case 23: SlotCalcGu(); break;
+    case 24: SlotCalcI1(); break;
+    case 25: SlotCalcI2(); break;
+    case 26: SlotCalcGi(); break;
+    case 27: SlotCalcLongDip(); break;
+    case 28: SlotCalcAt(); break;
+    case 29: SlotCalcSa(); break;
+    case 30: SlotCalcGa(); break;
+    case 31: SlotCalcSt(); break;
+    case 32: SlotCalcAt_2(); break;
+    case 33: SlotCalcSa_2(); break;
+    case 34: SlotCalcSe_2(); break;
+    case 35: languageChange(); break;
+    default:
+	return QMainWindow::qt_invoke( _id, _o );
+    }
+    return TRUE;
+}
+
+bool kantenasMain::qt_emit( int _id, QUObject* _o )
+{
+    return QMainWindow::qt_emit(_id,_o);
+}
+#ifndef QT_NO_PROPERTIES
+
+bool kantenasMain::qt_property( int id, int f, QVariant* v)
+{
+    return QMainWindow::qt_property( id, f, v);
+}
+
+bool kantenasMain::qt_static_property( QObject* , int , int , QVariant* ){ return FALSE; }
+#endif // QT_NO_PROPERTIES
